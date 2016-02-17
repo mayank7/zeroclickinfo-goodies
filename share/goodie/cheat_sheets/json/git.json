@@ -125,7 +125,6 @@
         "Synchronize Changes": [{
             "val": "Downloads all history from the repository bookmark",
             "key": "git fetch \\[bookmark\\]"
-
         }, {
             "val": "Combines bookmark's branch into current local branches",
             "key": "git merge \\[bookmark\\]/\\[branch\\]"
@@ -141,6 +140,15 @@
         }, {
             "val": "Downloads bookmark history and incorporates your changes on top of remote changes",
             "key": "git pull --rebase"
+        }, {
+            "val": "Rebase the current HEAD onto branch",
+            "key": "git rebase \\[branch\\]"
+        }, {
+            "val": "Abort a rebase",
+            "key": "git rebase --abort"
+        }, {
+            "val": "Continue a rebase after resolving conflicts",
+            "key": "git rebase --continue"
         }]
     }
 }
