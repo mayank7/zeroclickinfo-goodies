@@ -175,6 +175,10 @@
             {
                 "key": "while (<expr>) {...}",
                 "val": "Basic while loop"
+            },
+            {
+                "key": "<values>.each {...}",
+                "val": "Basic each loop"
             }
         ]
     }
